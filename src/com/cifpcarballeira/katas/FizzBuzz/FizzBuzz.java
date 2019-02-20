@@ -21,7 +21,7 @@ public class FizzBuzz {
         
         if (i % 3 == 0) {
             return "Fizz";
-        }
+        } 
         
         if (i % 5 == 0) {
             return "Buzz";
@@ -31,6 +31,12 @@ public class FizzBuzz {
         if ( cadenaI.contains("3")) {
             
             return "Fizz";
+        }
+
+        String stringI = i + "";
+        if (stringI.contains("5")) {
+            return "Buzz";
+
         }
         
        return i + "";
