@@ -27,6 +27,13 @@ public class FizzBuzz {
             return "Buzz";
         }        
         
+        String cadenaI = i + "";
+        if ( cadenaI.contains("3")) {
+            
+            return "Fizz";
+        }
+        
        return i + "";
     }
+    
 }
